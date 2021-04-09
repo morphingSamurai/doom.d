@@ -77,3 +77,9 @@
         org-roam-server-network-label-truncate t
         org-roam-server-network-label-truncate-length 60
         org-roam-server-network-label-wrap-length 20))
+
+
+(setq org-journal-date-prefix "#+TITLE: "
+      org-journal-time-prefix "*"
+      org-journal-date-format "%a, %d-%m-%Y"
+      org-journal-file-format "%d-%m-%Y.org")
